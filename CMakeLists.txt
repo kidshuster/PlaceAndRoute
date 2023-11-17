@@ -1,0 +1,201 @@
+cmake_minimum_required(VERSION 3.13)
+project(Homework_2)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(build/googletest-src/googlemock/include)
+include_directories(build/googletest-src/googlemock/include/gmock)
+include_directories(build/googletest-src/googlemock/include/gmock/internal)
+include_directories(build/googletest-src/googlemock/include/gmock/internal/custom)
+include_directories(build/googletest-src/googlemock/test)
+include_directories(build/googletest-src/googletest/include)
+include_directories(build/googletest-src/googletest/include/gtest)
+include_directories(build/googletest-src/googletest/include/gtest/internal)
+include_directories(build/googletest-src/googletest/include/gtest/internal/custom)
+include_directories(build/googletest-src/googletest/samples)
+include_directories(build/googletest-src/googletest/src)
+include_directories(build/googletest-src/googletest/test)
+include_directories(build/googletest-src/googletest/xcode/Samples/FrameworkSample)
+include_directories(src/libs/forcepart/include)
+include_directories(src/libs/graph/include)
+
+add_executable(Homework_2
+        build/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h
+        build/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h
+        build/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h
+        build/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h
+        build/googletest-src/googlemock/include/gmock/internal/gmock-port.h
+        build/googletest-src/googlemock/include/gmock/internal/gmock-pp.h
+        build/googletest-src/googlemock/include/gmock/gmock-actions.h
+        build/googletest-src/googlemock/include/gmock/gmock-cardinalities.h
+        build/googletest-src/googlemock/include/gmock/gmock-function-mocker.h
+        build/googletest-src/googlemock/include/gmock/gmock-generated-actions.h
+        build/googletest-src/googlemock/include/gmock/gmock-generated-function-mockers.h
+        build/googletest-src/googlemock/include/gmock/gmock-generated-matchers.h
+        build/googletest-src/googlemock/include/gmock/gmock-matchers.h
+        build/googletest-src/googlemock/include/gmock/gmock-more-actions.h
+        build/googletest-src/googlemock/include/gmock/gmock-more-matchers.h
+        build/googletest-src/googlemock/include/gmock/gmock-nice-strict.h
+        build/googletest-src/googlemock/include/gmock/gmock-spec-builders.h
+        build/googletest-src/googlemock/include/gmock/gmock.h
+        build/googletest-src/googlemock/src/gmock-all.cc
+        build/googletest-src/googlemock/src/gmock-cardinalities.cc
+        build/googletest-src/googlemock/src/gmock-internal-utils.cc
+        build/googletest-src/googlemock/src/gmock-matchers.cc
+        build/googletest-src/googlemock/src/gmock-spec-builders.cc
+        build/googletest-src/googlemock/src/gmock.cc
+        build/googletest-src/googlemock/src/gmock_main.cc
+        build/googletest-src/googlemock/test/gmock-actions_test.cc
+        build/googletest-src/googlemock/test/gmock-cardinalities_test.cc
+        build/googletest-src/googlemock/test/gmock-function-mocker_nc.cc
+        build/googletest-src/googlemock/test/gmock-function-mocker_test.cc
+        build/googletest-src/googlemock/test/gmock-generated-actions_test.cc
+        build/googletest-src/googlemock/test/gmock-generated-function-mockers_test.cc
+        build/googletest-src/googlemock/test/gmock-generated-matchers_test.cc
+        build/googletest-src/googlemock/test/gmock-internal-utils_test.cc
+        build/googletest-src/googlemock/test/gmock-matchers_test.cc
+        build/googletest-src/googlemock/test/gmock-more-actions_test.cc
+        build/googletest-src/googlemock/test/gmock-nice-strict_test.cc
+        build/googletest-src/googlemock/test/gmock-port_test.cc
+        build/googletest-src/googlemock/test/gmock-pp-string_test.cc
+        build/googletest-src/googlemock/test/gmock-pp_test.cc
+        build/googletest-src/googlemock/test/gmock-spec-builders_test.cc
+        build/googletest-src/googlemock/test/gmock_all_test.cc
+        build/googletest-src/googlemock/test/gmock_ex_test.cc
+        build/googletest-src/googlemock/test/gmock_leak_test_.cc
+        build/googletest-src/googlemock/test/gmock_link2_test.cc
+        build/googletest-src/googlemock/test/gmock_link_test.cc
+        build/googletest-src/googlemock/test/gmock_link_test.h
+        build/googletest-src/googlemock/test/gmock_output_test_.cc
+        build/googletest-src/googlemock/test/gmock_stress_test.cc
+        build/googletest-src/googlemock/test/gmock_test.cc
+        build/googletest-src/googletest/codegear/gtest_all.cc
+        build/googletest-src/googletest/codegear/gtest_link.cc
+        build/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h
+        build/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h
+        build/googletest-src/googletest/include/gtest/internal/custom/gtest.h
+        build/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h
+        build/googletest-src/googletest/include/gtest/internal/gtest-filepath.h
+        build/googletest-src/googletest/include/gtest/internal/gtest-internal.h
+        build/googletest-src/googletest/include/gtest/internal/gtest-param-util.h
+        build/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h
+        build/googletest-src/googletest/include/gtest/internal/gtest-port.h
+        build/googletest-src/googletest/include/gtest/internal/gtest-string.h
+        build/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
+        build/googletest-src/googletest/include/gtest/gtest-death-test.h
+        build/googletest-src/googletest/include/gtest/gtest-matchers.h
+        build/googletest-src/googletest/include/gtest/gtest-message.h
+        build/googletest-src/googletest/include/gtest/gtest-param-test.h
+        build/googletest-src/googletest/include/gtest/gtest-printers.h
+        build/googletest-src/googletest/include/gtest/gtest-spi.h
+        build/googletest-src/googletest/include/gtest/gtest-test-part.h
+        build/googletest-src/googletest/include/gtest/gtest-typed-test.h
+        build/googletest-src/googletest/include/gtest/gtest.h
+        build/googletest-src/googletest/include/gtest/gtest_pred_impl.h
+        build/googletest-src/googletest/include/gtest/gtest_prod.h
+        build/googletest-src/googletest/samples/prime_tables.h
+        build/googletest-src/googletest/samples/sample1.cc
+        build/googletest-src/googletest/samples/sample1.h
+        build/googletest-src/googletest/samples/sample10_unittest.cc
+        build/googletest-src/googletest/samples/sample1_unittest.cc
+        build/googletest-src/googletest/samples/sample2.cc
+        build/googletest-src/googletest/samples/sample2.h
+        build/googletest-src/googletest/samples/sample2_unittest.cc
+        build/googletest-src/googletest/samples/sample3-inl.h
+        build/googletest-src/googletest/samples/sample3_unittest.cc
+        build/googletest-src/googletest/samples/sample4.cc
+        build/googletest-src/googletest/samples/sample4.h
+        build/googletest-src/googletest/samples/sample4_unittest.cc
+        build/googletest-src/googletest/samples/sample5_unittest.cc
+        build/googletest-src/googletest/samples/sample6_unittest.cc
+        build/googletest-src/googletest/samples/sample7_unittest.cc
+        build/googletest-src/googletest/samples/sample8_unittest.cc
+        build/googletest-src/googletest/samples/sample9_unittest.cc
+        build/googletest-src/googletest/src/gtest-all.cc
+        build/googletest-src/googletest/src/gtest-death-test.cc
+        build/googletest-src/googletest/src/gtest-filepath.cc
+        build/googletest-src/googletest/src/gtest-internal-inl.h
+        build/googletest-src/googletest/src/gtest-matchers.cc
+        build/googletest-src/googletest/src/gtest-port.cc
+        build/googletest-src/googletest/src/gtest-printers.cc
+        build/googletest-src/googletest/src/gtest-test-part.cc
+        build/googletest-src/googletest/src/gtest-typed-test.cc
+        build/googletest-src/googletest/src/gtest.cc
+        build/googletest-src/googletest/src/gtest_main.cc
+        build/googletest-src/googletest/test/googletest-break-on-failure-unittest_.cc
+        build/googletest-src/googletest/test/googletest-catch-exceptions-test_.cc
+        build/googletest-src/googletest/test/googletest-color-test_.cc
+        build/googletest-src/googletest/test/googletest-death-test-test.cc
+        build/googletest-src/googletest/test/googletest-death-test_ex_test.cc
+        build/googletest-src/googletest/test/googletest-env-var-test_.cc
+        build/googletest-src/googletest/test/googletest-filepath-test.cc
+        build/googletest-src/googletest/test/googletest-filter-unittest_.cc
+        build/googletest-src/googletest/test/googletest-list-tests-unittest_.cc
+        build/googletest-src/googletest/test/googletest-listener-test.cc
+        build/googletest-src/googletest/test/googletest-message-test.cc
+        build/googletest-src/googletest/test/googletest-options-test.cc
+        build/googletest-src/googletest/test/googletest-output-test_.cc
+        build/googletest-src/googletest/test/googletest-param-test-invalid-name1-test_.cc
+        build/googletest-src/googletest/test/googletest-param-test-invalid-name2-test_.cc
+        build/googletest-src/googletest/test/googletest-param-test-test.cc
+        build/googletest-src/googletest/test/googletest-param-test-test.h
+        build/googletest-src/googletest/test/googletest-param-test2-test.cc
+        build/googletest-src/googletest/test/googletest-port-test.cc
+        build/googletest-src/googletest/test/googletest-printers-test.cc
+        build/googletest-src/googletest/test/googletest-shuffle-test_.cc
+        build/googletest-src/googletest/test/googletest-test-part-test.cc
+        build/googletest-src/googletest/test/googletest-test2_test.cc
+        build/googletest-src/googletest/test/googletest-throw-on-failure-test_.cc
+        build/googletest-src/googletest/test/googletest-uninitialized-test_.cc
+        build/googletest-src/googletest/test/gtest-typed-test2_test.cc
+        build/googletest-src/googletest/test/gtest-typed-test_test.cc
+        build/googletest-src/googletest/test/gtest-typed-test_test.h
+        build/googletest-src/googletest/test/gtest-unittest-api_test.cc
+        build/googletest-src/googletest/test/gtest_all_test.cc
+        build/googletest-src/googletest/test/gtest_assert_by_exception_test.cc
+        build/googletest-src/googletest/test/gtest_environment_test.cc
+        build/googletest-src/googletest/test/gtest_help_test_.cc
+        build/googletest-src/googletest/test/gtest_list_output_unittest_.cc
+        build/googletest-src/googletest/test/gtest_main_unittest.cc
+        build/googletest-src/googletest/test/gtest_no_test_unittest.cc
+        build/googletest-src/googletest/test/gtest_pred_impl_unittest.cc
+        build/googletest-src/googletest/test/gtest_premature_exit_test.cc
+        build/googletest-src/googletest/test/gtest_prod_test.cc
+        build/googletest-src/googletest/test/gtest_repeat_test.cc
+        build/googletest-src/googletest/test/gtest_skip_in_environment_setup_test.cc
+        build/googletest-src/googletest/test/gtest_skip_test.cc
+        build/googletest-src/googletest/test/gtest_sole_header_test.cc
+        build/googletest-src/googletest/test/gtest_stress_test.cc
+        build/googletest-src/googletest/test/gtest_test_macro_stack_footprint_test.cc
+        build/googletest-src/googletest/test/gtest_testbridge_test_.cc
+        build/googletest-src/googletest/test/gtest_throw_on_failure_ex_test.cc
+        build/googletest-src/googletest/test/gtest_unittest.cc
+        build/googletest-src/googletest/test/gtest_xml_outfile1_test_.cc
+        build/googletest-src/googletest/test/gtest_xml_outfile2_test_.cc
+        build/googletest-src/googletest/test/gtest_xml_output_unittest_.cc
+        build/googletest-src/googletest/test/production.cc
+        build/googletest-src/googletest/test/production.h
+        build/googletest-src/googletest/xcode/Samples/FrameworkSample/widget.cc
+        build/googletest-src/googletest/xcode/Samples/FrameworkSample/widget.h
+        build/googletest-src/googletest/xcode/Samples/FrameworkSample/widget_test.cc
+        data/resources/Example-Netlists.zip
+        data/resources/hw2.pdf
+        data/resources/magic_file_format.pdf
+        data/resources/sample.mag
+        data/resources/sample.zip
+        data/1
+        data/2
+        data/3
+        data/4
+        data/5
+        data/6
+        data/README.txt
+        src/app/src/main.cpp
+        src/gtest/CMakeLists.txt.in
+        src/libs/forcepart/include/forcepart.h
+        src/libs/forcepart/src/forcepart.cpp
+        src/libs/forcepart/test/test.cpp
+        src/libs/graph/include/graph.h
+        src/libs/graph/src/graph.cpp
+        src/libs/graph/test/test.cpp
+        src/CMakeLists.txt)

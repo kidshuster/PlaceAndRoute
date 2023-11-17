@@ -1,0 +1,8 @@
+placethrough cells: 10
+placement run time on 2: 0.007738
+bounding box size: 510 lambda
+routing percentage: 42.2222%
+total wire length is: 13161 lambda
+total number of vias is: 126
+routing run time on 2: 5.55926
+Memory usage: 5368

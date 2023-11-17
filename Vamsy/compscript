@@ -1,0 +1,5 @@
+#!/bin/bash 
+
+./voidscreen 
+g++ main.cpp graph.cpp forcepart.cpp hadlock.cpp -o run
+./run 2 out.mag

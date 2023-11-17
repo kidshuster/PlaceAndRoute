@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Homework_2" targetName="Homework_2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38b5b808-7388-4974-8567-0d69bd66be97" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/app/src/.main.cpp.swp" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/src/.main.cpp.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/forcepart/include/.forcepart.h.swp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/forcepart/include/.forcepart.h.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/forcepart/src/.forcepart.cpp.swp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/forcepart/src/.forcepart.cpp.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/graph/include/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/graph/include/graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/graph/src/.graph.cpp.swp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/graph/src/.graph.cpp.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/hadlock/include/.hadlock.h.swp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/hadlock/include/.hadlock.h.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/hadlock/src/.hadlock.cpp.swp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/hadlock/src/.hadlock.cpp.swp" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/bash/compscript.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bash/compscript.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/makescript.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bash/makescript.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bash/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/testscript.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bash/testscript.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/parprog.dir/app/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/parprog.dir/app/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/CTestCostData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/CTestCostData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/forcepart/libforcepart.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/forcepart/libforcepart.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parprog" beforeDir="false" afterPath="$PROJECT_DIR$/parprog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/forcepart/src/forcepart.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/forcepart/src/forcepart.cpp" afterDir="false" />
+>>>>>>> eafbd78b0f6ce2fa0859dd2d23d8e81a0d9b03eb
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+=======
+    <leaf>
+>>>>>>> eafbd78b0f6ce2fa0859dd2d23d8e81a0d9b03eb
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="-22" />
+    <option name="width" value="1922" />
+    <option name="height" value="1079" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Homework_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework 2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+=======
+>>>>>>> eafbd78b0f6ce2fa0859dd2d23d8e81a0d9b03eb
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Homework_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Homework_2" TARGET_NAME="Homework_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Homework_2" RUN_TARGET_NAME="Homework_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38b5b808-7388-4974-8567-0d69bd66be97" name="Default Changelist" comment="" />
+      <created>1554771652015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554771652015</updated>
+      <workItem from="1554771653157" duration="83000" />
+      <workItem from="1554771737956" duration="22000" />
+<<<<<<< HEAD
+      <workItem from="1554833592808" duration="122000" />
+=======
+>>>>>>> eafbd78b0f6ce2fa0859dd2d23d8e81a0d9b03eb
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="227000" />
+=======
+    <option name="totallyTimeSpent" value="105000" />
+>>>>>>> eafbd78b0f6ce2fa0859dd2d23d8e81a0d9b03eb
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-22" width="1922" height="1079" extended-state="0" />
+    <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+>>>>>>> eafbd78b0f6ce2fa0859dd2d23d8e81a0d9b03eb
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="CMake" order="11" />
+=======
+>>>>>>> eafbd78b0f6ce2fa0859dd2d23d8e81a0d9b03eb
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

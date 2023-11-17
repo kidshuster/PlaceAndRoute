@@ -1,0 +1,74 @@
+Start testing: May 26 19:05 CDT
+----------------------------------------------------------
+1/3 Testing: graph_lib_test
+1/3 Test: graph_lib_test
+Command: "/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/build/libs/graph/test/graph_test"
+Directory: /home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/build/libs/graph/test
+"graph_lib_test" start time: May 26 19:05 CDT
+Output:
+----------------------------------------------------------
+Running Graph Tests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Graph
+[ RUN      ] Graph.nodes100
+[       OK ] Graph.nodes100 (1 ms)
+[----------] 1 test from Graph (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"graph_lib_test" end time: May 26 19:05 CDT
+"graph_lib_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: forcepart_lib_test
+2/3 Test: forcepart_lib_test
+Command: "/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/build/libs/forcepart/test/forcepart_test"
+Directory: /home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/build/libs/forcepart/test
+"forcepart_lib_test" start time: May 26 19:05 CDT
+Output:
+----------------------------------------------------------
+Running ForcePart Tests
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ForcePart
+[ RUN      ] ForcePart.DistanceInt
+[       OK ] ForcePart.DistanceInt (0 ms)
+[----------] 1 test from ForcePart (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"forcepart_lib_test" end time: May 26 19:05 CDT
+"forcepart_lib_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: hadlock_lib_test
+3/3 Test: hadlock_lib_test
+Command: "/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/build/libs/hadlock/test/hadlock_test"
+Directory: /home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/build/libs/hadlock/test
+"hadlock_lib_test" start time: May 26 19:05 CDT
+Output:
+----------------------------------------------------------
+Running Graph Tests
+[==========] Running 0 tests from 0 test suites.
+[==========] 0 tests from 0 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"hadlock_lib_test" end time: May 26 19:05 CDT
+"hadlock_lib_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 26 19:05 CDT

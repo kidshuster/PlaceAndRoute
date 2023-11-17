@@ -1,0 +1,96 @@
+#include <bits/stdc++.h>
+#include <sys/resource.h>
+
+#include "hadlock.h"
+#include "forcepart.h"
+
+using namespace NetToMag;
+
+int main(int argc, char** argv)
+{
+    system("rm logs/runlog.txt");
+    system("touch logs/runlog.txt");
+ 
+    clock_t tStart1 = clock();
+    string input, output;
+    input = argv[argc-2];
+    output = argv[argc-1];
+
+<<<<<<< HEAD
+    cout << "Placement Started " << endl;
+=======
+    auto start = std::chrono::system_clock::now();
+
+>>>>>>> dd69e8267375c7168728fbd8fc2f0ad73e6748ea
+    Graph wGraph = ParseNetList(input);
+    
+    // export to Magic
+    auto start_placement = std::chrono::system_clock::now();
+
+    int dimension = ForcePlace(&wGraph);
+
+    auto end_placement = std::chrono::system_clock::now();
+    std::chrono::duration<double> elapsed_seconds_placement = end_placement-start_placement;
+
+
+    //PrintEdges(wGraph);
+    //PrintNodes(wGraph);
+    cout << "Placement Ended" << endl;
+
+    ofstream log;
+    log.open("logs/runlog.txt",std::ios::app);
+    log     << "placement run time on "
+            << input
+            << ": "
+            << (double)(clock()-tStart1)/CLOCKS_PER_SEC
+            << endl;
+    log.close();
+
+    clock_t tStart2 = clock();
+    
+<<<<<<< HEAD
+    cout << "Routing Started " << endl;
+    cubeGrid wGrid;
+    wGrid = HadLock(&wGraph,dimension);
+    PrintToMagic(wGrid,(double)(clock()-tStart2)/CLOCKS_PER_SEC,output);
+
+    log.open("logs/runlog.txt",std::ios::app);
+    log     << "routing run time on "
+            << input
+            << ": "
+            << (double)(clock()-tStart1)/CLOCKS_PER_SEC
+            << endl;
+
+    struct rusage r_usage;
+    getrusage(RUSAGE_SELF,&r_usage);
+    log       << "Memory usage: "
+              << r_usage.ru_maxrss
+              << endl;
+    log.close();
+    cout    << "Routing Ended " << endl
+            << "Terminating Program" << endl;
+=======
+    auto start_routing = std::chrono::system_clock::now();
+
+    cubeGrid wGrid;
+    wGrid = HadLock(&wGraph,dimension);
+
+    auto end_routing = std::chrono::system_clock::now();
+    std::chrono::duration<double> elapsed_seconds_routing = end_routing-start_routing;
+
+    std::cout << "elapsed time for placement: " << elapsed_seconds_placement.count() << "s\n";
+    std::cout << "elapsed time for routing: " << elapsed_seconds_routing.count() << "s\n";
+
+
+    PrintToMagic(wGrid,output);
+    
+    auto end = std::chrono::system_clock::now();
+
+    std::chrono::duration<double> elapsed_seconds = end-start;
+    std::time_t end_time = std::chrono::system_clock::to_time_t(end);
+>>>>>>> dd69e8267375c7168728fbd8fc2f0ad73e6748ea
+
+    std::cout << "finished computation at " << std::ctime(&end_time)
+              << "elapsed time: " << elapsed_seconds.count() << "s\n";
+    return 0;
+}

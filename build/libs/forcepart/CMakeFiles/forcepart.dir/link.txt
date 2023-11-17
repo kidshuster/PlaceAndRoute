@@ -1,0 +1,2 @@
+/usr/bin/ar qc libforcepart.a  CMakeFiles/forcepart.dir/src/forcepart.cpp.o
+/usr/bin/ranlib libforcepart.a

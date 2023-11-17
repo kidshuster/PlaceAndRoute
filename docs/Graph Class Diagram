@@ -1,0 +1,28 @@
+vector<node> nodes;
+vector<edge> edges;
+
+struct node
+{
+    int terminals[4];
+    coordinates origin;
+};
+
+stuct edge
+{
+    int idA;
+    int idB;
+};
+
+
+// what will be returned and inputted from libraries
+
+int main(void)
+{  
+    GraphClass wGraph;
+
+    wGraph = <libraryfunction>(wGraph);
+    wGraph = <libraryfunction>(wGraph);
+    
+    return 0;
+    
+}

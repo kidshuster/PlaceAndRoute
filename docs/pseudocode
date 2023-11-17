@@ -1,0 +1,25 @@
+while temp > 0.5 and passes < maxIterations (500) 
+
+//calculate repulsive forces between each node 
+for v = 0 to numberOfNodes 
+    for u = v+1 to numberOfNodes 
+        calculate the distance vector between the positions of v and u 
+        calculate a displacement displaceVec = (distVec/|distVec|) * repulsion(|distVec|) 
+        add displaceVec vector to v's displacement vector 
+        subtract displaceVec from u's displacement vector 
+    end 
+end 
+
+//calculate attractive forces 
+for e = 0 to numberOfEdges 
+    get the nodes attached to the edge (v and u) 
+    calculate the distance vector between the positions of v and u 
+    calculate a displacement displaceVec = (distVec/|distVec|) * attraction(|distVec|) 
+    subtract displaceVec vector from v's displacement vector 
+    add displaceVec to u's displacement vector 
+end 
+
+//decrease temperature parameter acording to cooling schedule 
+if "Show updates" is true and this is an Nth pass, update the layout on screen 
+at the end, go over all the nodes to find the max and min of the coords, 
+rescale all coords so that network will fill the display end while

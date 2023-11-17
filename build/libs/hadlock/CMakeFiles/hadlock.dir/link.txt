@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhadlock.a  CMakeFiles/hadlock.dir/src/hadlock.cpp.o
+/usr/bin/ranlib libhadlock.a

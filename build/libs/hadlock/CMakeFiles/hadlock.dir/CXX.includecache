@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/graph/include/graph.h
+bits/stdc++.h
+-
+
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/hadlock/include/hadlock.h
+graph.h
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/hadlock/include/graph.h
+bits/stdc++.h
+-
+
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/hadlock/src/hadlock.cpp
+bits/stdc++.h
+-
+hadlock.h
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/hadlock/src/hadlock.h
+graph.h
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/hadlock/src/graph.h
+

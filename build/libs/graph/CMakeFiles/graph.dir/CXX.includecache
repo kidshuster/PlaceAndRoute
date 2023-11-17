@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/graph/include/graph.h
+bits/stdc++.h
+-
+
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/graph/src/graph.cpp
+bits/stdc++.h
+-
+graph.h
+/home/michael/Documents/drive_sync/Classwork/Spring2019/design_automation/homework/Homework 2/src/libs/graph/src/graph.h
+
